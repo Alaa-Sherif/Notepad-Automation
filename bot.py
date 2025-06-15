@@ -25,10 +25,9 @@ def fetch_content(url):
 
 def write_content(title, body):
     content = f"{title}: \n\n{body}"
-    # Clear the text file
-    gui.hotkey('ctrl', 'n') # open new tab in notepad
-    gui.hotkey('ctrl', 'shift', 'tab') # move to the previous tab in notepad
-    gui.hotkey('ctrl', 'w') # close current tab in notepad
+    gui.hotkey('ctrl', 'n') 
+    gui.hotkey('ctrl', 'shift', 'tab')
+    gui.hotkey('ctrl', 'w') 
     gui.write(content, interval=0.03)
     time.sleep(1)
 

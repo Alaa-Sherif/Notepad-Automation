@@ -1,0 +1,4 @@
+botcity-framework-core>=1.2.1,<2.0
+botcity-maestro-sdk>=0.5.1,<1.0
+pyautogui>=0.9.54, <1.0
+requests<4,>=2.0 
